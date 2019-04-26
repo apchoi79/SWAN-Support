@@ -11,3 +11,4 @@ SWAN is a third-generation wave model, developed at [Delft University of Technol
 ## Building
 
 * [How to build SWAN on Linux](https://github.com/javirg/SWAN-Support/blob/master/recipes/build_linux.md)
+* [How to build SWAN on Linux, with netCDF support](https://github.com/javirg/SWAN-Support/blob/master/recipes/build_linux_netcdf.md)
