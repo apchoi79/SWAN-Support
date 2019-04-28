@@ -140,7 +140,7 @@ make mpi
 ## Step 4. Finish
 If no errors were shown during the building process, we've successfully built SWAN.
 
-The built files need executable permissions. Let's fix them with `chmod +x` command:, and copy them to our home folder `cp -r` with these commands:
+The built files need executable permissions. Let's fix them with `chmod +x` command:
 ```bash
 chmod +x swanrun swan.exe
 ```
