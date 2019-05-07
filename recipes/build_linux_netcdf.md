@@ -46,11 +46,11 @@ SWAN is a program written in Fortran, so we're going to install the GNU Fortran 
 * For *Debian/Ubuntu/Linux Mint*:
 ```bash
 sudo apt-get update
-sudo apt-get install build-essential gfortran
+sudo apt-get install wget nano gfortran m4 build-essential
 ```
 * For *Red Hat/Fedora/Mandriva/CentOS*:
 ```bash
-sudo yum install wget nano gcc-gfortran
+sudo yum install wget nano gcc-gfortran m4
 sudo yum groupinstall 'Development Tools'
 ```
 * For *Archlinux/Manjaro*:
