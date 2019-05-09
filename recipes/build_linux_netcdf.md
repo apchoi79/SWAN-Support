@@ -70,9 +70,9 @@ For SWAN, we only need `netCDF-Fortran`, but it depends on the “parent” `net
 
 Let's start with downloading and installing `netCDF-C` in a new folder called `netcdf` in user home directory (e.g. `/home/james/`):
 ```bash
-wget https://github.com/Unidata/netcdf-c/archive/v4.7.0.tar.gz
-tar -xzf v4.7.0.tar.gz
-cd netcdf-c-4.7.0
+wget https://github.com/Unidata/netcdf-c/archive/v4.6.3.tar.gz
+tar -xzf v4.6.3.tar.gz
+cd netcdf-c-4.6.3
 ./configure --prefix=${HOME}/netcdf --disable-dap --disable-netcdf-4 --disable-shared
 make
 make install
@@ -309,6 +309,6 @@ cd ${HOME}
 ```
 Once SWAN is built, we don't need the source files anymore. Clean up both the `.tar.gz` files and the `swan4120`, `netcdf-c-4.6.3` and `netcdf-fortran-4.4.5` folders:
 ```bash
-rm -rf *.tar.gz swan4120 netcdf-c-4.7.0 netcdf-fortran-4.4.5
+rm -rf *.tar.gz swan4120 netcdf-c-4.6.3 netcdf-fortran-4.4.5
 ```
 That's it. Now, you can run SWAN by calling `swanrun -input [filename]`.
