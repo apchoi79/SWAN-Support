@@ -70,9 +70,9 @@ For SWAN, we only need `netCDF-Fortran`, but it depends on the “parent” `net
 
 Let's start with downloading and installing `netCDF-C` in a new folder called `netcdf` in user home directory (e.g. `/home/james/`):
 ```bash
-wget https://github.com/Unidata/netcdf-c/archive/v4.6.3.tar.gz
-tar -xzf v4.6.3.tar.gz
-cd netcdf-c-4.6.3
+wget https://github.com/Unidata/netcdf-c/archive/v4.7.0.tar.gz
+tar -xzf v4.7.0.tar.gz
+cd netcdf-c-4.7.0
 ./configure --prefix=${HOME}/netcdf --disable-dap --disable-netcdf-4 --disable-shared
 make
 make install
