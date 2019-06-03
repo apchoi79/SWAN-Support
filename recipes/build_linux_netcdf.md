@@ -119,15 +119,15 @@ Open a text editor and copy `--fflags`, `--flibs` and `--prefix` lines. We will 
 ## Step 3. Download source code
 Use `wget` command to download SWAN:
 ```bash
-wget https://github.com/javirg/SWAN-Support/raw/master/source/swan4120.tar.gz
+wget https://github.com/javirg/SWAN-Support/raw/master/source/swan4131.tar.gz
 ```
 We need to extract the files before building. Most common procedure is to use the `tar` command with `-x`, `-z` and `-f` filters, as we did previously with netCDF packages:
 ```bash
-tar -xzf swan4120.tar.gz
+tar -xzf swan4131.tar.gz
 ```
-Now all files were extracted to a new folder called `swan4120`. Let's dig into it:
+Now all files were extracted to a new folder called `swan4131`. Let's dig into it:
 ```bash
-cd swan4120
+cd swan4131
 ```
 
 
@@ -307,8 +307,8 @@ I like to have those files on my HOME folder (e.g. `/home/james`). Copy them wit
 cp -r 'swan.exe' 'swanrun' ${HOME}
 cd ${HOME}
 ```
-Once SWAN is built, we don't need the source files anymore. Clean up both the `.tar.gz` files and the `swan4120`, `netcdf-c-4.6.3` and `netcdf-fortran-4.4.5` folders:
+Once SWAN is built, we don't need the source files anymore. Clean up both the `.tar.gz` files and the `swan4131`, `netcdf-c-4.6.3` and `netcdf-fortran-4.4.5` folders:
 ```bash
-rm -rf *.tar.gz swan4120 netcdf-c-4.6.3 netcdf-fortran-4.4.5
+rm -rf *.tar.gz swan4131 netcdf-c-4.6.3 netcdf-fortran-4.4.5
 ```
 That's it. Now, you can run SWAN by calling `swanrun -input [filename]`.
